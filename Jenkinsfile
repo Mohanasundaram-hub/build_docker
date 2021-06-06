@@ -4,7 +4,7 @@ pipeline {
 
         registry = "mohansms/build_docker" 
 
-        registryCredential = 'mohansms' 
+        registryCredential = 'dockerhub' 
 
         dockerImage = '' 
 
